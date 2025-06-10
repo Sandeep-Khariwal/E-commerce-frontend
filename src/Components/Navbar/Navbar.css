@@ -1,0 +1,154 @@
+li {
+  list-style-type: none;
+}
+
+/* Topbar link styling */
+.topbar__link {
+  color: #333;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Topbar layout */
+.navbar__topbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.85rem;
+  background-color: #f9f9f9;
+}
+
+.topbar__left {
+  width: 30vw;
+  color: #444;
+  display: flex;
+  align-items: center;
+}
+
+.topbar__icon {
+  margin-right: 5px;
+  color: #666;
+}
+
+.topbar__text {
+  color: #444;
+}
+
+.topbar__right {
+  width: 45vw;
+}
+
+.topbar__menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.topbar__item {
+  color: #444;
+}
+
+.topbar__item:hover {
+  color: #000;
+}
+
+.topbar__divider {
+  width: 1px;
+  background-color: #bbb;
+  margin: 2px 0;
+}
+
+/* Divider line below topbar and main */
+.navbar__divider-line {
+  width: 100%;
+  background-color: rgba(150, 150, 150, 0.3);
+  height: 1px;
+}
+
+/* Main navbar row */
+.navbar__main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 70px;
+  /* background-color: #f5f5f5; */
+}
+
+/* Logo */
+.navbar__logo {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.logo__icon {
+  margin-right: 5px;
+  color: #333;
+}
+
+/* Search section */
+.navbar__search {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  background-color: #fafafa;
+  height: fit-content;
+}
+
+.search__dropdown select {
+  border: none;
+  outline: none;
+  color: #555;
+  background-color: transparent;
+}
+
+.search__divider {
+  width: 1px;
+  height: 5vh;
+  margin: -5px 10px ;
+  background-color: #aaa;
+}
+
+.search__input-box {
+  display: flex;
+  align-items: center;
+}
+
+.search__icon {
+  margin: 0 10px;
+  color: #777;
+}
+
+.search__input {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: #444;
+  background-color: transparent;
+  width: 50vw;
+}
+
+/* Icon section */
+.navbar__icons {
+  display: flex;
+  gap: 25px;
+  color: #666;
+}
+
+.icon__link {
+  font-size: 1.5rem;
+  color: #666;
+  display: flex;
+  align-items: center;
+}
+
+.icon__shopping,
+.icon__notification {
+  font-size: 1.5rem;
+  color: #666;
+}

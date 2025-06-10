@@ -1,0 +1,48 @@
+.slide1 {
+    width: 100%;
+    height: 55vh;
+    background: whitesmoke
+}
+
+.slide2 {
+    width: 100%;
+    height: 55vh;
+    background-color: pink;
+    ;
+}
+
+.slide3 {
+    width: 100%;
+    height: 55vh;
+    background-color: green;
+    ;
+}
+
+.slide4 {
+    width: 100%;
+    height: 55vh;
+    background-color: blue;
+    ;
+}
+
+/* Container of pagination bullets */
+.swiper-pagination {
+    position: absolute !important;
+    /* ensure positioning is applied */
+}
+
+/* Style for bullets */
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #aaa;
+    opacity: 1;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+/* Style for active bullet */
+.swiper-pagination-bullet-active {
+    background-color: #7736ff;
+    transform: scale(1.4);
+}
