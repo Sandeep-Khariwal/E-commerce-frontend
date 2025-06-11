@@ -1,7 +1,7 @@
 /* SignUp.css */
-body {
+.signup {
   font-family: Arial, sans-serif;
-  background-image: url("D:\code\premium_photo-1664201890375-f8fa405cdb7d.avif"); /* Adjust the path accordingly */
+  background-image: url("../assets/signup.avif"); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

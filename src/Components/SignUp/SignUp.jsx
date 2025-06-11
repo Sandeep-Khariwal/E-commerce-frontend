@@ -56,6 +56,7 @@ function SignUp(p) {
 }
 
 export default SignUp;
+
 // gti -b branch name == create only branch
 // git checkout -b branch name == create new branch and shift
 // git branch == check all branch
