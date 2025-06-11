@@ -10,9 +10,12 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 import '../HeroSection/HeroSection.css';
+import Navbar from '../Navbar/Navbar';
 
 const HeroSection = () => {
   return (
+    <>
+     <Navbar/>
     <Swiper
       modules={[Pagination, Autoplay]}
       pagination={{ clickable: true }}
@@ -30,6 +33,7 @@ const HeroSection = () => {
       <SwiperSlide><div className='slide3'></div></SwiperSlide>
       <SwiperSlide><div className='slide4'></div></SwiperSlide>
     </Swiper>
+    </>
   );
 };
 
