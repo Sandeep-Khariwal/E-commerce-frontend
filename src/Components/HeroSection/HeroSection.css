@@ -1,48 +1,88 @@
-.slide1 {
-    width: 100%;
-    height: 55vh;
-    background: whitesmoke
-}
 
-.slide2 {
-    width: 100%;
-    height: 55vh;
-    background-color: pink;
-    ;
-}
 
-.slide3 {
-    width: 100%;
-    height: 55vh;
-    background-color: green;
-    ;
-}
-
+.slide1,
+.slide2,
+.slide3,
 .slide4 {
     width: 100%;
     height: 55vh;
-    background-color: blue;
-    ;
+    display: flex;
+    background-color: whitesmoke;
 }
 
-/* Container of pagination bullets */
+.section-right {
+    width: 30%;
+    height: 100%;
+}
+
+.section-right img {
+    width: fit-content;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.heading {
+    font-size: 1.5rem;
+    color: #2e3a59; /* deep slate blue for premium tone */
+}
+
+.hero-description,
+.hero-description2 {
+    font-size: 3rem;
+    font-weight: 700;
+    word-spacing: 3px;
+}
+
+.hero-description {
+    color: #e53935; /* bold offer red */
+}
+
+.hero-description2 {
+    color: #1e88e5; /* cool blue — energetic but clean */
+}
+
+.quote {
+    font-size: 1.6rem;
+    color: #6a994e; /* calm green for professional feel */
+}
+
+.section-left {
+    width: 45%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    position: relative;
+}
+
+.slide2 img {
+    position: absolute;
+    bottom: 50px;
+}
+
+.slide4 img {
+    width: fit-content;
+}
+
+/* Pagination (if you're using it) */
 .swiper-pagination {
-    position: absolute !important;
-    /* ensure positioning is applied */
+    margin-top: 25px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
 }
 
-/* Style for bullets */
 .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
-    background-color: #aaa;
+    background-color: #ccc;
     opacity: 1;
-    margin: 0 5px;
     transition: all 0.3s ease;
+    border-radius: 50%;
 }
 
-/* Style for active bullet */
 .swiper-pagination-bullet-active {
-    background-color: #7736ff;
-    transform: scale(1.4);
+    background-color: #ffb300; /* golden-yellow highlight */
+    transform: scale(1.1);
 }
