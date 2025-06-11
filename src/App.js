@@ -5,16 +5,18 @@ import { far } from "@fortawesome/free-regular-svg-icons";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HeroSection from "./Components/HeroSection/HeroSection";
 import Navbar from "./Components/Navbar/Navbar";
+import SignUp from "./Components/SignUp/SignUp";
+import Demo from "./Components/Demo";
 library.add(fab, fas, far);
 
 function App() {
   return (
     <>
       <BrowserRouter>
-          <Navbar/>
         <Routes>
-
           <Route path="/" element={<HeroSection />} />
+          <Route path="/SignUp" element={<SignUp/>} />
+          <Route path="/demo" element={<Demo/>} />
         </Routes>
       </BrowserRouter>
     </>
