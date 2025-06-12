@@ -10,8 +10,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import '../HeroSection/HeroSection.css';
-import Navbar from '../Navbar/Navbar';
-import "../HeroSection/HeroSection.css";
 
 import axios from "axios";
 
