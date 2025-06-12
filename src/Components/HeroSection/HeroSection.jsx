@@ -9,7 +9,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import "../HeroSection/HeroSection.css";
+import '../HeroSection/HeroSection.css';
 
 import axios from "axios";
 
@@ -36,9 +36,23 @@ const HeroSection = () => {
 
   return (
     <>
+     <Navbar/>
+    <Swiper
+      modules={[Pagination, Autoplay]}
+      pagination={{ clickable: true }}
+      loop={true}
+      autoplay={{
+        delay: 5000,
+      }}
+    >
+      <SwiperSlide><div className='slide1'>
 
       <Navbar/>
 
+      </div></SwiperSlide>
+      <SwiperSlide><div className='slide3'></div></SwiperSlide>
+      <SwiperSlide><div className='slide4'></div></SwiperSlide>
+    </Swiper>
       <Swiper
         modules={[Pagination, Autoplay]}
         pagination={{ clickable: true }}
