@@ -6,6 +6,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HeroSection from "./Components/HeroSection/HeroSection";
 import Navbar from "./Components/Navbar/Navbar";
 import Log_in_page from "./Components/LogInPage/LogPage";
+import SignUp from "./Components/SignUp/SignUp";
+import Card from "./Components/Card/Card";
 library.add(fab, fas, far);
 
 function App() {
@@ -14,10 +16,11 @@ function App() {
       <BrowserRouter>
          
         <Routes>
-
           <Route path="/" element={<HeroSection />} />
           
           <Route path="Login" element={<Log_in_page/>} />
+          <Route path="/SignUp" element={<SignUp />} />
+          <Route path="/cart" element={<Card />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -1,10 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 li {
   list-style-type: none;
 }
 
 /* Topbar link styling */
 .topbar__link {
-  color: #333;
+  color: #2e3a59; /* deep slate blue */
   font-weight: 700;
   text-decoration: none;
 }
@@ -15,23 +20,24 @@ li {
   justify-content: space-around;
   align-items: center;
   font-size: 0.85rem;
-  background-color: #f9f9f9;
+  background-color: #f2f5fa; /* clean, soft gray-blue background */
+  padding: 10px 0;
 }
 
 .topbar__left {
   width: 30vw;
-  color: #444;
+  color: #2e3a59;
   display: flex;
   align-items: center;
 }
 
 .topbar__icon {
   margin-right: 5px;
-  color: #666;
+  color: #6a994e; /* fresh green */
 }
 
 .topbar__text {
-  color: #444;
+  color: #2e3a59;
 }
 
 .topbar__right {
@@ -44,11 +50,11 @@ li {
 }
 
 .topbar__item {
-  color: #444;
+  color: #2e3a59;
 }
 
 .topbar__item:hover {
-  color: #000;
+  color: #1e88e5; /* clean blue hover */
 }
 
 .topbar__divider {
@@ -70,13 +76,13 @@ li {
   justify-content: space-around;
   align-items: center;
   padding: 1rem 70px;
-  /* background-color: #f5f5f5; */
+  background-color: #ffffff;
 }
 
 /* Logo */
 .navbar__logo {
   text-decoration: none;
-  color: #333;
+  color: #2e3a59;
   font-size: 1.5rem;
   font-weight: 700;
   width: fit-content;
@@ -86,7 +92,7 @@ li {
 
 .logo__icon {
   margin-right: 5px;
-  color: #333;
+  color: #2e3a59;
 }
 
 /* Search section */
@@ -96,22 +102,22 @@ li {
   padding: 5px;
   border: 1px solid #999;
   border-radius: 10px;
-  background-color: #fafafa;
+  background-color: #f9fbfd;
   height: fit-content;
 }
 
 .search__dropdown select {
   border: none;
   outline: none;
-  color: #555;
+  color: #2e3a59;
   background-color: transparent;
 }
 
 .search__divider {
   width: 1px;
   height: 5vh;
-  margin: -5px 10px ;
-  background-color: #aaa;
+  margin: -5px 10px;
+  background-color: #bbb;
 }
 
 .search__input-box {
@@ -121,14 +127,14 @@ li {
 
 .search__icon {
   margin: 0 10px;
-  color: #777;
+  color: #1e88e5; /* blue icon */
 }
 
 .search__input {
   border: none;
   outline: none;
   font-size: 1rem;
-  color: #444;
+  color: #2e3a59;
   background-color: transparent;
   width: 50vw;
 }
@@ -137,12 +143,12 @@ li {
 .navbar__icons {
   display: flex;
   gap: 25px;
-  color: #666;
+  color: #2e3a59;
 }
 
 .icon__link {
   font-size: 1.5rem;
-  color: #666;
+  color: #2e3a59;
   display: flex;
   align-items: center;
 }
@@ -150,5 +156,5 @@ li {
 .icon__shopping,
 .icon__notification {
   font-size: 1.5rem;
-  color: #666;
+  color: #ffb300; /* golden-yellow to highlight actions */
 }
